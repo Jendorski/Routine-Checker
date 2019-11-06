@@ -6,11 +6,6 @@ buildscript {
     // Define versions in a single place
     ext {
 
-        // Sdk and tools
-        compileSdkVersion = 28
-        minSdkVersion = 21
-        targetSdkVersion = 28
-
         // App dependencies
         appCompatVersion = '1.1.0-beta01'
         constraintLayoutVersion = '2.0.0-beta1'
