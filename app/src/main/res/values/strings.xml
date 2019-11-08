@@ -13,5 +13,6 @@
 
     <!-- Accessibility -->
     <string name="a11y_legoset_item_image">Picture of Lego Set</string>
+    <string name="add_routine">Add routine</string>
 
 </resources>

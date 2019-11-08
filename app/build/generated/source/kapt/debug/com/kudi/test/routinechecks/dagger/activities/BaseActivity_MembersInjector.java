@@ -2,8 +2,8 @@
 package com.kudi.test.routinechecks.dagger.activities;
 
 import dagger.MembersInjector;
-import dagger.android.DaggerActivity_MembersInjector;
 import dagger.android.DispatchingAndroidInjector;
+import dagger.android.support.DaggerAppCompatActivity_MembersInjector;
 import javax.inject.Provider;
 
 @SuppressWarnings({
@@ -24,6 +24,6 @@ public final class BaseActivity_MembersInjector implements MembersInjector<BaseA
 
   @Override
   public void injectMembers(BaseActivity instance) {
-    DaggerActivity_MembersInjector.injectAndroidInjector(instance, androidInjectorProvider.get());
+    DaggerAppCompatActivity_MembersInjector.injectAndroidInjector(instance, androidInjectorProvider.get());
   }
 }

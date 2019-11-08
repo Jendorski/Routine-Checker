@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [androidx.databinding:databinding-adapters:3.5.1] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\2fd96cf120d726db29579aa20a228736\databinding-adapters-3.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:3.5.1] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\dcf4536f48ce679df9c239c0dd8bb3fd\databinding-runtime-3.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta1] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\b26cc79c06ee1a4d93e8a9ecb25b4841\constraintlayout-2.0.0-beta1\AndroidManifest.xml:2:1-11:12
@@ -71,22 +71,22 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\GIG\.gradle\cach
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\6f95def34ed016769d2b866dcb94d0a0\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\dc5b11592a4d4071dcf05c11aca9d515\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\2b86797c9f03b1904e4e1ea1f74f5bf2\print-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:4:5-42
 		INJECTED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml
 	xmlns:dist
 		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:3:5-61
 	android:versionCode
 		INJECTED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:2:11-69
@@ -95,7 +95,7 @@ ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidMani
 	dist:instant
 		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:6:18-37
 application
-ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:8:5-22:19
+ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:8:5-23:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta1] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\b26cc79c06ee1a4d93e8a9ecb25b4841\constraintlayout-2.0.0-beta1\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta1] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\b26cc79c06ee1a4d93e8a9ecb25b4841\constraintlayout-2.0.0-beta1\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\5e956fe67a9d2e72da17849c1c482a94\material-1.0.0\AndroidManifest.xml:22:5-20
@@ -125,31 +125,33 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\GIG\.gradle\ca
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\5b454e4f1a30a31f78d2352c725b41cb\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:14:9-40
+		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:15:9-40
+	android:name
+		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:9:9-41
 activity#com.kudi.test.routinechecks.dagger.activities.MainActivity
-ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:15:9-21:20
+ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:15:19-65
+		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:16:19-65
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:20:27-74
 uses-sdk
 INJECTED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml

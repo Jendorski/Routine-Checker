@@ -1,4 +1,4 @@
-package com.elifox.legocatalog.di
+package com.kudi.test.routinechecks.dagger.di
 
 /**
  * Marks an activity / fragment injectable.

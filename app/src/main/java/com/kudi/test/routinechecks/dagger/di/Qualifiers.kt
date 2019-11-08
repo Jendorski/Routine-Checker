@@ -1,10 +1,10 @@
-package com.elifox.legocatalog.di
+package com.kudi.test.routinechecks.dagger.di
 
 import javax.inject.Qualifier
 
 @Retention(AnnotationRetention.BINARY)
 @Qualifier
-annotation class LegoAPI
+annotation class RoutineAPI
 
 @Retention(AnnotationRetention.BINARY)
 @Qualifier

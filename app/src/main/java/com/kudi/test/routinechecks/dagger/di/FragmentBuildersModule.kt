@@ -1,9 +1,7 @@
-package com.elifox.legocatalog.di
+package com.kudi.test.routinechecks.dagger.di
 
 
-import com.kudi.test.routinechecks.dagger.fragments.NextUpFragment
-import com.kudi.test.routinechecks.dagger.fragments.RoutinesFragment
-import com.kudi.test.routinechecks.dagger.fragments.SettingsFragment
+import com.kudi.test.routinechecks.dagger.fragments.*
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 
@@ -11,12 +9,18 @@ import dagger.android.ContributesAndroidInjector
 @Module
 abstract class FragmentBuildersModule {
     @ContributesAndroidInjector
-    abstract fun contributeThemeFragment(): RoutinesFragment
+    abstract fun contributeRoutineFragment(): RoutinesFragment
 
     @ContributesAndroidInjector
-    abstract fun contributeLegoSetsFragment(): SettingsFragment
+    abstract fun contributeSettingsFragment(): SettingsFragment
 
     @ContributesAndroidInjector
-    abstract fun contributeLegoSetFragment(): NextUpFragment
+    abstract fun contributeNextUpFragment(): NextUpFragment
+
+    @ContributesAndroidInjector
+    abstract fun contributeAddRoutineFragment(): AddRoutine
+
+    @ContributesAndroidInjector
+    abstract fun contributeARoutineFragment(): ARoutineFragment
 
 }

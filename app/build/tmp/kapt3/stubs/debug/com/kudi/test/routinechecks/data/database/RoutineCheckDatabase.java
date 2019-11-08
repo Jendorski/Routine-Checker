@@ -1,10 +1,21 @@
 package com.kudi.test.routinechecks.data.database;
 
-import java.lang.System;
+import android.content.Context;
+import androidx.room.Database;
+import androidx.room.Room;
+import androidx.room.RoomDatabase;
+import androidx.room.TypeConverters;
+import androidx.sqlite.db.SupportSQLiteDatabase;
+import androidx.work.WorkManager;
+import com.kudi.test.routinechecks.data.Converters;
+import com.kudi.test.routinechecks.data.dao.RoutineDao;
+import com.kudi.test.routinechecks.data.model.Routine;
+import com.kudi.test.routinechecks.worker.SeedDatabaseWorker;
 
 /**
  * The Room database for this app
  */
+@androidx.room.TypeConverters(value = {com.kudi.test.routinechecks.data.Converters.class})
 @androidx.room.Database(entities = {com.kudi.test.routinechecks.data.model.Routine.class}, version = 1, exportSchema = false)
 @kotlin.Metadata(mv = {1, 1, 15}, bv = {1, 0, 3}, k = 1, d1 = {"\u0000\u0014\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\b\'\u0018\u0000 \u00052\u00020\u0001:\u0001\u0005B\u0005\u00a2\u0006\u0002\u0010\u0002J\b\u0010\u0003\u001a\u00020\u0004H&\u00a8\u0006\u0006"}, d2 = {"Lcom/kudi/test/routinechecks/data/database/RoutineCheckDatabase;", "Landroidx/room/RoomDatabase;", "()V", "routineDao", "Lcom/kudi/test/routinechecks/data/dao/RoutineDao;", "Companion", "app_debug"})
 public abstract class RoutineCheckDatabase extends androidx.room.RoomDatabase {

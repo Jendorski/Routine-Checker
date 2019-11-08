@@ -12,8 +12,7 @@
             android:layout_height="match_parent"
             android:clipToPadding="false"
             android:scrollbars="vertical"
-            tools:context="com.elifox.legocatalog.MainActivity"
-            tools:listitem="@layout/list_item_routines"/>
+            tools:context="com.elifox.legocatalog.MainActivity" />
 
         <ProgressBar
             android:id="@+id/progressBar"

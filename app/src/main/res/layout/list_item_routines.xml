@@ -5,18 +5,20 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+
         <variable
             name="clickListener"
             type="android.view.View.OnClickListener"/>
+
         <variable
-            name="legoSet"
-            type="com.elifox.legocatalog.legoset.data.LegoSet"/>
+            name="routine"
+            type="com.kudi.test.routinechecks.data.model.Routine"/>
     </data>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="@{clickListener}">
+        >
 
         <ImageView
             android:id="@+id/image"
@@ -24,7 +26,6 @@
             android:layout_height="0dp"
             android:contentDescription="@string/a11y_legoset_item_image"
             android:scaleType="centerCrop"
-            app:imageFromUrl="@{legoSet.imageUrl}"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintDimensionRatio="1:1"
@@ -38,7 +39,7 @@
             android:paddingRight="@dimen/margin_normal"
             android:paddingTop="@dimen/margin_small"
             android:paddingBottom="@dimen/margin_small"
-            android:text="@{legoSet.name}"
+            android:text="@{routine.title}"
             android:textAppearance="?attr/textAppearanceListItem"
             android:maxLines="1"
             android:ellipsize="end"
@@ -47,6 +48,6 @@
             app:layout_constraintTop_toBottomOf="@id/image"
             tools:text="Tree House"/>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
 
 </layout>

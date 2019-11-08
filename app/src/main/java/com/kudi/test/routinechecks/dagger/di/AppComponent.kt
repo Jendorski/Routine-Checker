@@ -1,4 +1,4 @@
-package com.elifox.legocatalog.di
+package com.kudi.test.routinechecks.dagger.di
 
 import android.app.Application
 import com.kudi.test.routinechecks.utils.RoutineApp

@@ -1,7 +1,7 @@
 package com.kudi.test.routinechecks.viewModel
 
 import androidx.lifecycle.ViewModel
-import com.elifox.legocatalog.di.CoroutineScropeIO
+import com.kudi.test.routinechecks.dagger.di.CoroutineScropeIO
 import com.kudi.test.routinechecks.data.repository.RoutineRepository
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.cancel

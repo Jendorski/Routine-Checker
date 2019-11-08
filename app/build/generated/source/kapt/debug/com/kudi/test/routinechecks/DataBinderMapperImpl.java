@@ -6,6 +6,9 @@ import android.view.View;
 import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
+import com.kudi.test.routinechecks.databinding.ListItemRoutinesBindingImpl;
+import com.kudi.test.routinechecks.databinding.RoutinesBindingImpl;
+import java.lang.IllegalArgumentException;
 import java.lang.Integer;
 import java.lang.Object;
 import java.lang.Override;
@@ -16,9 +19,15 @@ import java.util.HashMap;
 import java.util.List;
 
 public class DataBinderMapperImpl extends DataBinderMapper {
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(0);
+  private static final int LAYOUT_LISTITEMROUTINES = 1;
+
+  private static final int LAYOUT_ROUTINES = 2;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(2);
 
   static {
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.kudi.test.routinechecks.R.layout.list_item_routines, LAYOUT_LISTITEMROUTINES);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.kudi.test.routinechecks.R.layout.routines, LAYOUT_ROUTINES);
   }
 
   @Override
@@ -28,6 +37,20 @@ public class DataBinderMapperImpl extends DataBinderMapper {
       final Object tag = view.getTag();
       if(tag == null) {
         throw new RuntimeException("view must have a tag");
+      }
+      switch(localizedLayoutId) {
+        case  LAYOUT_LISTITEMROUTINES: {
+          if ("layout/list_item_routines_0".equals(tag)) {
+            return new ListItemRoutinesBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for list_item_routines is invalid. Received: " + tag);
+        }
+        case  LAYOUT_ROUTINES: {
+          if ("layout/routines_0".equals(tag)) {
+            return new RoutinesBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for routines is invalid. Received: " + tag);
+        }
       }
     }
     return null;
@@ -73,17 +96,21 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerBrLookup {
-    static final SparseArray<String> sKeys = new SparseArray<String>(2);
+    static final SparseArray<String> sKeys = new SparseArray<String>(4);
 
     static {
       sKeys.put(0, "_all");
+      sKeys.put(1, "routine");
+      sKeys.put(2, "clickListener");
     }
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(0);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(2);
 
     static {
+      sKeys.put("layout/list_item_routines_0", com.kudi.test.routinechecks.R.layout.list_item_routines);
+      sKeys.put("layout/routines_0", com.kudi.test.routinechecks.R.layout.routines);
     }
   }
 }
