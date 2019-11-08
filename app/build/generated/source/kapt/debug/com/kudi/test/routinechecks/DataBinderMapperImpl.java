@@ -6,7 +6,9 @@ import android.view.View;
 import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
+import com.kudi.test.routinechecks.databinding.AddRoutineBindingImpl;
 import com.kudi.test.routinechecks.databinding.ListItemRoutinesBindingImpl;
+import com.kudi.test.routinechecks.databinding.NextUpItemBindingImpl;
 import com.kudi.test.routinechecks.databinding.RoutinesBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
@@ -19,14 +21,20 @@ import java.util.HashMap;
 import java.util.List;
 
 public class DataBinderMapperImpl extends DataBinderMapper {
-  private static final int LAYOUT_LISTITEMROUTINES = 1;
+  private static final int LAYOUT_ADDROUTINE = 1;
 
-  private static final int LAYOUT_ROUTINES = 2;
+  private static final int LAYOUT_LISTITEMROUTINES = 2;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(2);
+  private static final int LAYOUT_NEXTUPITEM = 3;
+
+  private static final int LAYOUT_ROUTINES = 4;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(4);
 
   static {
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.kudi.test.routinechecks.R.layout.add_routine, LAYOUT_ADDROUTINE);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.kudi.test.routinechecks.R.layout.list_item_routines, LAYOUT_LISTITEMROUTINES);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.kudi.test.routinechecks.R.layout.next_up_item, LAYOUT_NEXTUPITEM);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.kudi.test.routinechecks.R.layout.routines, LAYOUT_ROUTINES);
   }
 
@@ -39,11 +47,23 @@ public class DataBinderMapperImpl extends DataBinderMapper {
         throw new RuntimeException("view must have a tag");
       }
       switch(localizedLayoutId) {
+        case  LAYOUT_ADDROUTINE: {
+          if ("layout/add_routine_0".equals(tag)) {
+            return new AddRoutineBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for add_routine is invalid. Received: " + tag);
+        }
         case  LAYOUT_LISTITEMROUTINES: {
           if ("layout/list_item_routines_0".equals(tag)) {
             return new ListItemRoutinesBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for list_item_routines is invalid. Received: " + tag);
+        }
+        case  LAYOUT_NEXTUPITEM: {
+          if ("layout/next_up_item_0".equals(tag)) {
+            return new NextUpItemBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for next_up_item is invalid. Received: " + tag);
         }
         case  LAYOUT_ROUTINES: {
           if ("layout/routines_0".equals(tag)) {
@@ -106,10 +126,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(2);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(4);
 
     static {
+      sKeys.put("layout/add_routine_0", com.kudi.test.routinechecks.R.layout.add_routine);
       sKeys.put("layout/list_item_routines_0", com.kudi.test.routinechecks.R.layout.list_item_routines);
+      sKeys.put("layout/next_up_item_0", com.kudi.test.routinechecks.R.layout.next_up_item);
       sKeys.put("layout/routines_0", com.kudi.test.routinechecks.R.layout.routines);
     }
   }

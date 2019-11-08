@@ -1,42 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <data>
-        <variable
-            name="clickListener"
-            type="android.view.View.OnClickListener"/>
-        <variable
-            name="checkBox"
-            type="android.widget.CompoundButton.OnCheckedChangeListener"/>
-    </data>
-
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:id="@+id/main_add_relative_layout">
 
         <TimePicker
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/time_picker"
-            style="@style/myTimePickerStyle"
-            android:onClick="@{clickListener}">
-
-        </TimePicker>
+            style="@style/myTimePickerStyle"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@+id/time_picker"
+            android:id="@+id/frequency_relative_layout"
             android:layout_margin="4dp">
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/frequency_checkbox"
-                android:checked="@{checkBox}"
                 android:text="Frequency"/>
 
             <TextView
@@ -57,13 +43,13 @@
                 android:id="@+id/calendar_button"
                 android:src="@drawable/assessment"/>
 
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
                 android:layout_centerHorizontal="true"
                 android:weightSum="5"
+                android:visibility="gone"
                 android:id="@+id/frequency_linear_layout"
                 android:layout_below="@+id/calendar_button"
                 android:orientation="horizontal">

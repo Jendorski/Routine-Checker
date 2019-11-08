@@ -32,9 +32,9 @@ public final class RoutineCheckDatabase_Impl extends RoutineCheckDatabase {
     final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(configuration, new RoomOpenHelper.Delegate(1) {
       @Override
       public void createAllTables(SupportSQLiteDatabase _db) {
-        _db.execSQL("CREATE TABLE IF NOT EXISTS `Routine` (`time` INTEGER NOT NULL, `description` TEXT NOT NULL, `title` TEXT NOT NULL, `done` INTEGER NOT NULL, `missed` INTEGER NOT NULL, PRIMARY KEY(`time`, `title`))");
+        _db.execSQL("CREATE TABLE IF NOT EXISTS `Routine` (`time` TEXT NOT NULL, `description` TEXT NOT NULL, `title` TEXT NOT NULL, `done` INTEGER NOT NULL, `missed` INTEGER NOT NULL, PRIMARY KEY(`time`, `title`))");
         _db.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
-        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '6c656a5fa06191de9ac6f9b50d575f1c')");
+        _db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '80e800234f5ca9abc7cdf940db74e2cd')");
       }
 
       @Override
@@ -74,7 +74,7 @@ public final class RoutineCheckDatabase_Impl extends RoutineCheckDatabase {
       @Override
       protected RoomOpenHelper.ValidationResult onValidateSchema(SupportSQLiteDatabase _db) {
         final HashMap<String, TableInfo.Column> _columnsRoutine = new HashMap<String, TableInfo.Column>(5);
-        _columnsRoutine.put("time", new TableInfo.Column("time", "INTEGER", true, 1, null, TableInfo.CREATED_FROM_ENTITY));
+        _columnsRoutine.put("time", new TableInfo.Column("time", "TEXT", true, 1, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsRoutine.put("description", new TableInfo.Column("description", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsRoutine.put("title", new TableInfo.Column("title", "TEXT", true, 2, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsRoutine.put("done", new TableInfo.Column("done", "INTEGER", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
@@ -90,7 +90,7 @@ public final class RoutineCheckDatabase_Impl extends RoutineCheckDatabase {
         }
         return new RoomOpenHelper.ValidationResult(true, null);
       }
-    }, "6c656a5fa06191de9ac6f9b50d575f1c", "b7b85486df633d10b295560301fa4536");
+    }, "80e800234f5ca9abc7cdf940db74e2cd", "a83b9f86f69d310b2f00cf0d62fabafd");
     final SupportSQLiteOpenHelper.Configuration _sqliteConfig = SupportSQLiteOpenHelper.Configuration.builder(configuration.context)
         .name(configuration.name)
         .callback(_openCallback)

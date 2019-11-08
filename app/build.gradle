@@ -21,11 +21,15 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
     }
+
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            multiDexEnabled true
+            multiDexKeepFile file('multidex_keep_file.txt')
         }
     }
     compileOptions {
@@ -103,7 +107,18 @@ dependencies {
     implementation "com.squareup.okhttp3:okhttp:$rootProject.okhttp"
     implementation "com.squareup.okhttp3:logging-interceptor:$rootProject.okhttp"
 
-    // Testing dependencies
+    //RXJava & RXKotlin
+    implementation "io.reactivex.rxjava2:rxandroid:$rootProject.rxAndroid"
+    implementation "io.reactivex.rxjava2:rxjava:$rootProject.rxJava"
+    implementation "io.reactivex.rxjava2:rxkotlin:$rootProject.rxKotlin"
+
+    //RxJava support for Room
+    implementation "android.arch.persistence.room:rxjava2:1.0.0-alpha5"
+
+    //Testing support
+    androidTestImplementation "android.arch.core:core-testing:1.0.0-alpha5"
+
+    //Testing dependencies
     testImplementation "junit:junit:$rootProject.junitVersion"
     testImplementation "com.squareup.okhttp3:mockwebserver:$rootProject.mockwebserverVersion"
     testImplementation "androidx.arch.core:core-testing:$rootProject.coreTestingVersion"
@@ -127,5 +142,8 @@ dependencies {
     androidTestImplementation "androidx.arch.core:core-testing:$rootProject.coreTestingVersion"
     androidTestImplementation "org.mockito:mockito-core:$rootProject.mockitoVersion"
     androidTestImplementation "org.mockito:mockito-android:$rootProject.mockitoAndroidVersion"
+
+    //MultiDex
+    implementation "androidx.multidex:multidex:2.0.0"
 
 }

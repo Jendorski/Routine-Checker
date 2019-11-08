@@ -2,6 +2,8 @@ package com.kudi.test.routinechecks.utils
 
 import android.app.Activity
 import android.app.Application
+import android.content.Context
+import androidx.multidex.MultiDex
 import com.facebook.stetho.Stetho
 import com.kudi.test.routinechecks.BuildConfig
 import com.kudi.test.routinechecks.dagger.di.AppInjector
@@ -22,6 +24,11 @@ open class RoutineApp: Application(), HasActivityInjector {
 
         AppInjector.init(this)
 
+    }
+
+    override fun attachBaseContext(base: Context?) {
+        super.attachBaseContext(base)
+        MultiDex.install(this)
     }
 
     @Inject

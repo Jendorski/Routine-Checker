@@ -1,9 +1,8 @@
-package com.elifox.legocatalog.data
+package com.kudi.test.routinechecks.data
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.liveData
 import androidx.lifecycle.map
-import com.kudi.test.routinechecks.data.Result
 import kotlinx.coroutines.Dispatchers
 
 /**
@@ -14,19 +13,13 @@ import kotlinx.coroutines.Dispatchers
  * [Result.Status.ERROR] - if error has occurred from any source
  * [Result.Status.LOADING]
  */
-fun <T, A> resultLiveData(databaseQuery: () -> LiveData<T>,
-                          networkCall: suspend () -> Result<A>,
-                          saveCallResult: suspend (A) -> Unit): LiveData<Result<T>> =
+fun <T> resultLiveData(databaseQuery: () -> LiveData<T>,
+                          saveCallResult: suspend (T) -> Unit): LiveData<Result<T>> =
         liveData(Dispatchers.IO) {
             emit(Result.loading<T>())
             val source = databaseQuery.invoke().map { Result.success(it) }
             emitSource(source)
 
-            val responseStatus = networkCall.invoke()
-            if (responseStatus.status == Result.Status.SUCCESS) {
-                saveCallResult(responseStatus.data!!)
-            } else if (responseStatus.status == com.kudi.test.routinechecks.data.Result.Status.ERROR) {
-                emit(Result.error<T>(responseStatus.message!!))
-                emitSource(source)
-            }
+            //saveCallResult(T)
+
         }

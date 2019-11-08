@@ -71,14 +71,15 @@ class RoutinesFragment : BaseFragment() {
 
         subscribeUi(adapter)
 
-        setHasOptionsMenu(true)
-
         val binding = DataBindingUtil.inflate<RoutinesBinding>(
 
             inflater, R.layout.routines, container, false).apply {
 
             lifecycleOwner = this@RoutinesFragment
         }
+
+        setHasOptionsMenu(true)
+        setMenuVisibility(true)
 
         return binding.root
     }

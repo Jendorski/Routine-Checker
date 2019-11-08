@@ -6,6 +6,7 @@ INJECTED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidM
 INJECTED from C:\Users\GIG\Documents\Github\Routine-Checks\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [androidx.databinding:databinding-adapters:3.5.1] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\2fd96cf120d726db29579aa20a228736\databinding-adapters-3.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.databinding:databinding-runtime:3.5.1] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\dcf4536f48ce679df9c239c0dd8bb3fd\databinding-runtime-3.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\7bc29299624e3f567ff22f62da8bd6e4\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta1] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\b26cc79c06ee1a4d93e8a9ecb25b4841\constraintlayout-2.0.0-beta1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.0.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\ba6aada6b00fc8a4869fbfc88dbbb67f\navigation-ui-ktx-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui:2.0.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\6befc299bbb2e88d0a8d90f57eb2d6ed\jetified-navigation-ui-2.0.0\AndroidManifest.xml:17:1-22:12
@@ -22,6 +23,7 @@ MERGED from [androidx.navigation:navigation-fragment-ktx:2.0.0] C:\Users\GIG\.gr
 MERGED from [androidx.paging:paging-runtime:2.1.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\4de726ae6ddb1a8d8656e718b7dfa237\paging-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha05] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\61d83a5c72175dadff796cefa7a71b3c\recyclerview-1.1.0-alpha05\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.room:room-ktx:2.2.0-alpha01] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\0cde2660f389b7a32fdd9bfc08b2b705\room-ktx-2.2.0-alpha01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-rxjava2:2.0.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\c7e48b091805d491fd98429c60763661\room-rxjava2-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.work:work-runtime-ktx:2.1.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\a89f2a20c65660819f94f710ab096063\work-runtime-ktx-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.work:work-runtime:2.1.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\59a12d238169cb1e4b3133ca788194b6\work-runtime-2.1.0\AndroidManifest.xml:17:1-125:12
 MERGED from [androidx.room:room-runtime:2.2.0-alpha01] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\b1742a20b1cb29c6555db33c1d990760\room-runtime-2.2.0-alpha01\AndroidManifest.xml:17:1-30:12
@@ -30,6 +32,7 @@ MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\GIG\.gradle\caches\tr
 MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.1] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\7f682229b0df3b845dd5357f01ac152f\stetho-okhttp3-1.5.1\AndroidManifest.xml:2:1-13:12
 MERGED from [com.facebook.stetho:stetho:1.5.1] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\1b4f58f250504551bcfd936e1e623111\jetified-stetho-1.5.1\AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.dagger:dagger-android:2.23.2] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\9451262efeddc583348dad3ec3269664\jetified-dagger-android-2.23.2\AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\3538f72e813227292dd1e7cf5b720422\rxandroid-2.0.2\AndroidManifest.xml:15:1-21:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\1e690e96e239b5322a70849840aaf8d6\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\9eca2d67ba16850252a0e8f7032d79d7\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\b67b53361488a275cff23d941d562e4f\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -160,6 +163,8 @@ MERGED from [androidx.databinding:databinding-adapters:3.5.1] C:\Users\GIG\.grad
 MERGED from [androidx.databinding:databinding-adapters:3.5.1] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\2fd96cf120d726db29579aa20a228736\databinding-adapters-3.5.1\AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-runtime:3.5.1] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\dcf4536f48ce679df9c239c0dd8bb3fd\databinding-runtime-3.5.1\AndroidManifest.xml:22:5-44
 MERGED from [androidx.databinding:databinding-runtime:3.5.1] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\dcf4536f48ce679df9c239c0dd8bb3fd\databinding-runtime-3.5.1\AndroidManifest.xml:22:5-44
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\7bc29299624e3f567ff22f62da8bd6e4\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\7bc29299624e3f567ff22f62da8bd6e4\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta1] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\b26cc79c06ee1a4d93e8a9ecb25b4841\constraintlayout-2.0.0-beta1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta1] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\b26cc79c06ee1a4d93e8a9ecb25b4841\constraintlayout-2.0.0-beta1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.navigation:navigation-ui-ktx:2.0.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\ba6aada6b00fc8a4869fbfc88dbbb67f\navigation-ui-ktx-2.0.0\AndroidManifest.xml:20:5-44
@@ -192,6 +197,8 @@ MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha05] C:\Users\GIG\.gra
 MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha05] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\61d83a5c72175dadff796cefa7a71b3c\recyclerview-1.1.0-alpha05\AndroidManifest.xml:20:5-44
 MERGED from [androidx.room:room-ktx:2.2.0-alpha01] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\0cde2660f389b7a32fdd9bfc08b2b705\room-ktx-2.2.0-alpha01\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.room:room-ktx:2.2.0-alpha01] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\0cde2660f389b7a32fdd9bfc08b2b705\room-ktx-2.2.0-alpha01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-rxjava2:2.0.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\c7e48b091805d491fd98429c60763661\room-rxjava2-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-rxjava2:2.0.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\c7e48b091805d491fd98429c60763661\room-rxjava2-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.work:work-runtime-ktx:2.1.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\a89f2a20c65660819f94f710ab096063\work-runtime-ktx-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.work:work-runtime-ktx:2.1.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\a89f2a20c65660819f94f710ab096063\work-runtime-ktx-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.work:work-runtime:2.1.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\59a12d238169cb1e4b3133ca788194b6\work-runtime-2.1.0\AndroidManifest.xml:21:5-23:41
@@ -208,6 +215,8 @@ MERGED from [com.facebook.stetho:stetho:1.5.1] C:\Users\GIG\.gradle\caches\trans
 MERGED from [com.facebook.stetho:stetho:1.5.1] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\1b4f58f250504551bcfd936e1e623111\jetified-stetho-1.5.1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.dagger:dagger-android:2.23.2] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\9451262efeddc583348dad3ec3269664\jetified-dagger-android-2.23.2\AndroidManifest.xml:20:5-44
 MERGED from [com.google.dagger:dagger-android:2.23.2] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\9451262efeddc583348dad3ec3269664\jetified-dagger-android-2.23.2\AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\3538f72e813227292dd1e7cf5b720422\rxandroid-2.0.2\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\3538f72e813227292dd1e7cf5b720422\rxandroid-2.0.2\AndroidManifest.xml:19:5-43
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\1e690e96e239b5322a70849840aaf8d6\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\1e690e96e239b5322a70849840aaf8d6\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\GIG\.gradle\caches\transforms-2\files-2.1\9eca2d67ba16850252a0e8f7032d79d7\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44

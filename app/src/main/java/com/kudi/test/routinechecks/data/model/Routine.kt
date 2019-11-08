@@ -1,11 +1,10 @@
 package com.kudi.test.routinechecks.data.model
 
 import androidx.room.Entity
-import androidx.room.PrimaryKey
 
 @Entity(tableName = "Routine", primaryKeys = ["time", "title"])
 data class Routine (
-    val time: Long,
+    val time: String,
     val description: String,
     val title: String,
     val done: Boolean,
